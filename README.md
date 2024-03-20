@@ -1,4 +1,4 @@
-#Weather App
+# Weather App Frontend
 It's a simple self-contained weather widget which we can put onto any web page or application using
 
 First add the static assets that web component requires
@@ -16,13 +16,13 @@ You can have as many independent instances of weather-app as you like and each w
 
 
 To run the app, you will need to have Node.js and npm installed. Once you have these installed, you can clone the repository and run the following commands:
-
+```
 npm install
 npm start 
 or
 you can run 
 npm run servenow
-
+```
 You can check how build is made and index.html embeds a self-contained standard web component and also adds static assets to index.html page
 
 To run tests you can run the following command:
@@ -30,17 +30,17 @@ To run tests you can run the following command:
 npm test
 The app will then be available at http://localhost:3000.
 
-#Backend
+# Backend
 
-#Weather API
+# Weather API
 
-#Features
+## Features
 Provides a GraphQL endpoint to fetch weather data
 Uses a simple and intuitive schema
 
 Can be easily integrated into other applications
 
-##Getting Started
+## Getting Started
 
 To run the API, you will need to have Node.js and npm installed. Once you have these installed, you can clone the repository and run the following commands:
 
